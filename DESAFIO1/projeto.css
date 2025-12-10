@@ -1,0 +1,17 @@
+body{
+background-color: rgb(37, 36, 36);
+color: white;
+}
+header{
+    text-align: center;
+    font: 18pt normal;
+}
+.container{
+text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: blanchedalmond;
+   text-align:  center;
+    
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+code{
+    color: red;
+}

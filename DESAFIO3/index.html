@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIOGRAFIA DO DAVI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body id="pai">
+    <header><h1>Quem sou eu?</h1></header>
+
+    <section>
+      <div id="main">
+        <img src="davi.jpg.jpeg" alt="" id="eu" />
+        <p>
+          Olá, me chamo <strong>Davi e tenho 20 anos!</strong> <br />
+          Atualmente sou um estudante e entusiasta de tecnologia, curso
+          <strong>sistemas de informação</strong> <br />
+          na <strong> FALS (Faculdade do litoral sul paulista)</strong>, e estou
+          fazendo cursos do <q>Curso em video</q> de
+          <strong>JS, HTML5 E CSS3</strong>
+        </p>
+
+        <h2>Como falar comigo?</h2>
+        <a href="pag2.html">
+          <input type="button" value="Contato" id="contato"
+        /></a>
+      </div>
+      <div class="tema">
+        <input
+          type="radio"
+          name="tema"
+          value="escuro"
+          onchange="trocarTema(this.value)"
+        />
+        dark
+        <input
+          type="radio"
+          name="tema"
+          value="claro"
+          onchange="trocarTema(this.value)"
+        />
+        light <br />
+        <p>Escolha o modo de exibição.</p>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

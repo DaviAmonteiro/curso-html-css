@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+ header{
+    font: 18pt normal;
+    text-align: center;
+ }
+
+ .container{
+    text-align: center;
+ }
+ 
+ #voltar{
+    width: 200px;
+ }

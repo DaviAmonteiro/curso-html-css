@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo classes</title>
+    <style>
+      body {
+        background-image: linear-gradient(
+          to right,
+          #b594ed,
+          #8345ed,
+          #ba45ed 33%
+        );
+        border-color: black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      #especial {
+        background-color: white;
+        width: 600px;
+        height: 600px;
+        border: 1px solid black;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      #especifico:hover {
+        background-image: linear-gradient(to right, #356ef2, #0300f5);
+        color: white;
+        padding: 4px 10px;
+        border-radius: 6px;
+        transition: 2s ease;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="especial">
+      <h1>Personalizando um link!</h1>
+      <p>
+        Para aprender HTML e CSS, acesse <a href="#">GitHub do Guanabara</a>
+      </p>
+      <p>
+        Para conhecimentos mais tecnicos, acesse <a href="#">site da W3C</a>
+      </p>
+      <p>
+        Para acessar todos os conteudos, acesse
+        <a href="#" id="especifico">Curso em video</a>
+      </p>
+    </div>
+  </body>
+</html>

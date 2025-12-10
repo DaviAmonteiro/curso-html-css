@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #183b59, #012e40, #0b2559);
+  position: relative;
+  transition: color 0.4s ease;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgb(47, 101, 108);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Quando o tema claro for ativado */
+body.tema-claro::before {
+  opacity: 1;
+}
+
+header,
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.6em;
+  font-family: monospace;
+}
+h2 {
+  color: #024135;
+  font-family: sans-serif;
+  font-size: 1.6em;
+}
+section {
+  text-align: center;
+  margin: auto;
+}
+#main {
+  margin: auto;
+  width: 500px;
+  height: 515px;
+  border: 1px solid #010d17;
+  box-shadow: 1px 2px 3px #000a13;
+  color: white;
+}
+p {
+  font-size: 1.6em;
+  font-family: monospace;
+}
+li {
+  font-size: 1.6em;
+  font-family: monospace;
+  color: white;
+}
+#contato {
+  font-family: "Courier New", Courier, monospace;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid #000a13;
+  box-shadow: 2px 2px 4px #000a13;
+  background-color: #02735e;
+  color: white;
+}
+#voltar {
+  font-family: "Courier New", Courier, monospace;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid #000a13;
+  box-shadow: 2px 2px 4px #000a13;
+  background-color: #02735e;
+  color: white;
+}
+#contato:hover {
+  font-family: "Courier New", Courier, monospace;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid #000a13;
+  box-shadow: 2px 2px 4px #000a13;
+  background-color: #01362d;
+  color: white;
+  transition: 1s;
+}
+#voltar:hover {
+  font-family: "Courier New", Courier, monospace;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid #000a13;
+  box-shadow: 2px 2px 4px #000a13;
+  background-color: #023229;
+  color: white;
+  transition: 1s;
+}
+img#eu {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #011526;
+  box-shadow: 1px 1px 1px #011f39;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.caixa {
+  margin: auto;
+  max-width: 450px;
+  height: 250px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #0f0;
+  border-radius: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-top: 10px;
+}
+.tema {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: white;
+  border-radius: 40px;
+  background-color: #02735e;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.403);
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+body.tema-claro {
+  background-image: none !important;
+  background-color: rgb(30, 87, 108) !important;
+}

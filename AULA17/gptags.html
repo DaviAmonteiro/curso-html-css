@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping tags Semanticas</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        font-size: 1.5em;
+        background-color: rgb(143, 143, 143);
+      }
+      nav {
+        display: inline-block;
+        background-color: rgba(69, 69, 97, 0.638);
+        border-radius: 7px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.544);
+      }
+
+      nav > a {
+        padding: 4px;
+        color: white;
+        text-decoration: none;
+        margin-right: 30px;
+      }
+      nav:hover {
+        background-color: rgba(0, 0, 161, 0.638);
+        transition: 1s;
+        text-decoration: underline;
+      }
+
+      header {
+        padding: 10px;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+      }
+      main {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px 5px 5px 15px;
+      }
+      article {
+        background-color: rgba(129, 128, 128, 0.509);
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin: 5px 5px 5px 5px;
+        height: 40px;
+      }
+      div#bola {
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">instagram</a>
+        <a href="#">whatsapp</a>
+        <a href="#">linkedin</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <h2>Tecnologia no Brasil</h2>
+        <p>
+          O país é uma força significativa no mercado global de Tecnologia da
+          Informação (TI): Top 10 Global: O Brasil tem mantido sua posição entre
+          as dez maiores potências globais no mercado de tecnologia,
+          especialmente em software e serviços. Liderança na América Latina: O
+          país lidera o mercado latino-americano em investimentos e
+          desenvolvimento de tecnologia. Índice de Prontidão Digital (NRI):
+          Ocupa a 44ª posição global no Índice de Prontidão Digital (que avalia
+          acesso e uso de TICs), mostrando uma melhora significativa nos últimos
+          anos, subindo 15 posições em quatro anos (de 59º em 2019 para 44º em
+          2024).
+        </p>
+      </section>
+      <section id="noticias">
+        <article>
+          <aside><p>www.brasiltec.com.br</p></aside>
+        </article>
+        <article>
+          <h2>Noticia brasileira</h2>
+          <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta accusantium eum unde aspernatur saepe placeat a, ut nostrum sint ducimus voluptatem aperiam qui fuga, labore minus. Suscipit optio molestiae ipsum.</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido pelo &copy;Davi</p>
+      <div id="bola"></div>
+    </footer>
+  </body>
+</html>

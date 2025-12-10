@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(141, 116, 165);
+    text-align: center;
+}
+ol{
+    list-style: decimal;
+}
